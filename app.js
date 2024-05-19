@@ -1,5 +1,3 @@
-const fs = require('fs');
-
 const url = process.argv[2];
 const cssSelector = process.argv[3];
 
@@ -50,4 +48,3 @@ async function captureSelectorContent(url,selector) {
     
 }
 captureSelectorContent(url,cssSelectorPrepared)
-//const webPage = fs.readFileSync(url).toString();
